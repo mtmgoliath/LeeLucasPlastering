@@ -7,8 +7,8 @@ const HeaderComponent =()=> {
         return (
             <header>
                 <div id="logoDiv">
-                    <LogoComponent />
-                    <QuoteButtonComponent />
+                    {/* <LogoComponent />
+                    <QuoteButtonComponent /> */}
                     <NavigationComponent />
                 </div>
             </header>

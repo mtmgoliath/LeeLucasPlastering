@@ -1,8 +1,11 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button'
 
 const QuoteButtonComponent =()=> {
     return (
-        <button>Quotes</button>
+        <Button variant="primary" size="lg">
+            Get a Quote
+         </Button>
     )
 }
 
