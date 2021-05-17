@@ -1,3 +1,10 @@
-#id {
-    max-width: 12%;
-}
+.navItems {
+    font-family: Fenwick Woodtype;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    color: black;
+    border: 3px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+ }

@@ -1,0 +1,11 @@
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#showcasePics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}

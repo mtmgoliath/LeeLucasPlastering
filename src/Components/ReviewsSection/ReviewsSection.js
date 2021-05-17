@@ -14,9 +14,9 @@ const ReviewSection =()=> {
                     additional content. This content is a little bit longer.
                 </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                {/* <Card.Footer>
                 <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
+                </Card.Footer> */}
             </Card>
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
@@ -24,12 +24,12 @@ const ReviewSection =()=> {
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
                     This card has supporting text below as a natural lead-in to additional
-                    content.{' '}
+                    content.
                 </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                {/* <Card.Footer>
                 <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
+                </Card.Footer> */}
             </Card>
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
@@ -41,9 +41,9 @@ const ReviewSection =()=> {
                     show that equal height action.
                 </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                {/* <Card.Footer>
                 <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
+                </Card.Footer> */}
             </Card>
         </CardDeck>
     )

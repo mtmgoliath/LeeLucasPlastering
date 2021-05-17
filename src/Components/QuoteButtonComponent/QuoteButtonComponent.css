@@ -1,0 +1,11 @@
+#quoteButton {
+    background: #FF7A00;
+    border: 5px solid #000000;  
+    font-family: Fenwick Woodtype;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 4rem;
+    line-height: 66px;
+    border-radius: 5px;
+}

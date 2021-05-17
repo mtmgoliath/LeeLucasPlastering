@@ -1,10 +1,10 @@
 import React from 'react'
+import Logo from '../../../src/LLPLogo.png'
+import "./LogoComponent.css"
 
 const LogoComponent =()=> {
-    return (
-        <div id="logo-component">
-            Lee Lucas Plastering
-        </div>
+    return (    
+        <img id="logoWords" src={Logo} alt="Company logo in black and orange"/>
     )
 }
 
