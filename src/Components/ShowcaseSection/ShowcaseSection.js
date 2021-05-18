@@ -8,18 +8,19 @@ import "./ShowcaseSection.css"
 const ShowcaseSection =()=> {
     return (
         <section>
-            <Jumbotron>
+            <Jumbotron id="showcaseJumbo">
                 <div id="showcasePics">
                 <PicboxComponent />
                 <PicboxComponent />
                 </div>
-                <h1>Hello, world!</h1>
+                <div id="headline">
+                    <h1>Third Generation Plasterer</h1>
+                    <p>
+                        Master level craftsman with over 20 years experience.
+                    </p>
+                </div>
                 <p>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
-                </p>
-                <p>
-                    <Button variant="primary">Learn more</Button>
+                    <Button id="showcaseButton">Learn more</Button>
                 </p>
           </Jumbotron>
         </section>

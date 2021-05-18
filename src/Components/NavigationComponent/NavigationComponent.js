@@ -14,20 +14,20 @@ const NavigationComponent =()=> {
         //     <NavLink>Gallery</NavLink>
         //     <NavLink>Contact</NavLink>
         // </div>
-        <Navbar style={{ backgroundImage: `url(${headerBG})`, height: "auto", display: "flex", justifyContent: "space-between"}} variant="dark">
+        <Navbar style={{ backgroundImage: `url(${headerBG})`, height: "auto", display: "flex", justifyContent: "space-between"}}>
             <LogoComponent />
             {/* <Navbar.Brand href="#home"><img id="logoWords" style={{"max-width": "40%", "min-width": "40%", alignSelf: "screenLeft"}} src={Logo} alt="Company logo in black and orange"/></Navbar.Brand> */}
             <QuoteButtonComponent />
-            <Nav variant="pills" defaultActiveKey="/home">
+            <Nav defaultActiveKey="/home">
                 <Nav.Item className="navItems">
-                <Nav.Link href="/home">Active</Nav.Link>
+                <Nav.Link href="/home">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="navItems">
-                <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+                <Nav.Link eventKey="link-1">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="navItems">
-                <Nav.Link eventKey="disabled" disabled>
-                    Disabled
+                <Nav.Link eventKey="link-2">
+                    Gallery
                 </Nav.Link>
                 </Nav.Item>
             </Nav>

@@ -1,0 +1,59 @@
+#aboutContainer {
+    background: #FF7A0099;
+    font-family: Fenwick Woodtype;
+    font-size: 2rem;
+    color: black;
+    border: 5px solid #ff7a00;
+    border-radius: 5px; 
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#sectionContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#textboxContainer, #skillsContainer, #contactBox {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    padding: 25px;
+}
+
+#contactBox {
+    background: #ff7a00 ;
+}
+
+#skillsContainer {
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+#skills {
+    flex-direction: row;
+}
+
+#contactButton {
+    color: black;
+    border: 3px solid #000000;
+    border-radius: 5px; 
+    background-color: #ff7a00;
+    font-size: larger;
+    margin-top: 2rem;
+}
+
+#sectionContent2 {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    padding: 25px;
+    
+
+}

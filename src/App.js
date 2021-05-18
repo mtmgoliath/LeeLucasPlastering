@@ -1,5 +1,6 @@
 
 import './App.css';
+import AboutSection from './Components/AboutSection/AboutSection';
 import HeaderComponent from './Components/HeaderComponent/HeaderComponent'
 import PicboxComponent from './Components/PicboxComponent/PicboxComponent';
 import ReviewSection from './Components/ReviewsSection/ReviewsSection';
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
         <HeaderComponent />
         <ShowcaseSection />
+        <AboutSection />
         <PicboxComponent />
         <ReviewSection />
     </div>

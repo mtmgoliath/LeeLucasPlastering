@@ -7,5 +7,40 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 25px;
+    padding: 25px 25px;
+    border: 5px solid black;
+    border-radius: 5px; 
+    background: #FF7A00;
+    margin-top: 0%;
+    margin-bottom: 2rem;
+}
+
+#showcaseJumbo {
+    background: #FF7A0099;
+    font-family: Fenwick Woodtype;
+    font-size: 2rem;
+    color: black;
+    border: 5px solid #ff7a00;
+    border-radius: 5px; 
+    justify-content: space-between;
+    }
+
+#headline {
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    padding: 25px;
+}
+
+#headline h1 {
+    font-size: 6rem;
+}
+
+#showcaseButton {
+    color: black;
+    border: 3px solid #000000;
+    border-radius: 5px; 
+    background-color: #ff7a00;
+    font-size: larger;
+    margin-top: 2rem;
 }
