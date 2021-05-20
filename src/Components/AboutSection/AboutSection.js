@@ -14,7 +14,9 @@ const AboutSection =()=> {
                     <Col><h2>About</h2></Col>
                 </Row>
                 <Row id="sectionContent">
-                    <Col><PicboxComponent id="profilePic" /></Col>
+                    <Col xs="auto" md="auto" lg>
+                        <PicboxComponent id="profilePic" fluid />
+                    </Col>
                     <Col id="textboxContainer">
                         <div>
                             <h2>Background</h2>

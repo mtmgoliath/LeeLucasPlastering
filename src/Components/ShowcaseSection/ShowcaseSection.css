@@ -23,6 +23,7 @@ section {
     border: 5px solid #ff7a00;
     border-radius: 5px; 
     justify-content: space-between;
+    margin-top: 2rem;
     }
 
 #headline {
@@ -30,6 +31,7 @@ section {
     border-radius: 5px; 
     background: #ff7a00;
     padding: 25px;
+    text-align: center;
 }
 
 #headline h1 {
@@ -42,5 +44,9 @@ section {
     border-radius: 5px; 
     background-color: #ff7a00;
     font-size: larger;
+    margin-top: 2rem;
+}
+
+.Container {
     margin-top: 2rem;
 }

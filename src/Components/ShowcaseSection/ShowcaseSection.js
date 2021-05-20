@@ -1,13 +1,14 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
+import Container from 'react-bootstrap/Container'
 import PicboxComponent from '../PicboxComponent/PicboxComponent'
 import "./ShowcaseSection.css"
 
 
 const ShowcaseSection =()=> {
     return (
-        <section>
+        <Container>
             <Jumbotron id="showcaseJumbo">
                 <div id="showcasePics">
                 <PicboxComponent />
@@ -18,12 +19,12 @@ const ShowcaseSection =()=> {
                     <p>
                         Master level craftsman with over 20 years experience.
                     </p>
+                    <p>
+                        <Button id="showcaseButton">Learn more</Button>
+                    </p>
                 </div>
-                <p>
-                    <Button id="showcaseButton">Learn more</Button>
-                </p>
           </Jumbotron>
-        </section>
+        </Container>
     )
 }
 
