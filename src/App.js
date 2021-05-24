@@ -1,10 +1,11 @@
 
 import './App.css';
 import AboutSection from './Components/AboutSection/AboutSection';
+import ContactSection from './Components/ContactSection/ContactSection';
+import FooterComponent from './Components/FooterComponent/FooterComponent';
+import GallerySection from './Components/GallerySection/GallerySection';
 import HeaderComponent from './Components/HeaderComponent/HeaderComponent'
-import PicboxComponent from './Components/PicboxComponent/PicboxComponent';
 import ReviewSection from './Components/ReviewsSection/ReviewsSection';
-// import LogoComponent from './Components/LogoComponent/LogoComponent'
 import ShowcaseSection from './Components/ShowcaseSection/ShowcaseSection'
 
 function App() {
@@ -13,8 +14,10 @@ function App() {
         <HeaderComponent />
         <ShowcaseSection />
         <AboutSection />
-        <PicboxComponent />
-        <ReviewSection />
+        <GallerySection />
+        {/* <ReviewSection /> */}
+        <ContactSection />
+        <FooterComponent />
     </div>
   );
 }

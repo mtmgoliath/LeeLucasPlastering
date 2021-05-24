@@ -1,0 +1,29 @@
+#galleryContainer {
+    background: #FF7A0099;
+    font-family: Fenwick Woodtype;
+    color: black;
+    border: 5px solid #ff7a00;
+    border-radius: 5px; 
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#galleryHeading {
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    /* padding: 25px; */
+    margin-bottom: 2rem;
+
+}
+
+#galleryHeading h2 {
+    font-size: 4rem;
+}
+
+.galleryImages {
+    max-width: 100%;
+    border: 5px solid black;
+    border-radius: 5px;
+}

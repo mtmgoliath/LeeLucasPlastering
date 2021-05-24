@@ -1,0 +1,30 @@
+#contactContainer {
+    background: #FF7A0099;
+    font-family: Fenwick Woodtype;
+    font-size: 2rem;
+    color: black;
+    border: 5px solid #ff7a00;
+    border-radius: 5px; 
+    margin-bottom: 2rem;
+        text-align: center;
+}
+
+#contactHeading {
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+#callToAction {
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+
+#callToAction h2 {
+    font-size: 5rem;
+}

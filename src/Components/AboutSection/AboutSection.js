@@ -7,15 +7,19 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const AboutSection =()=> {
+    let contactClickHandler =()=> {
+        const anchor = document.querySelector('#callToAction')
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
     return (
         <section>
-            <Container id="aboutContainer">
-                <Row>
-                    <Col><h2>About</h2></Col>
+            <Container fluid id="aboutContainer">
+                <Row id="aboutHeading">
+                    <h2>About</h2>
                 </Row>
                 <Row id="sectionContent">
-                    <Col xs="auto" md="auto" lg>
-                        <PicboxComponent id="profilePic" fluid />
+                    <Col id="profilePic" xs="auto" md={5} lg={6}>
+                        <PicboxComponent  />
                     </Col>
                     <Col id="textboxContainer">
                         <div>
@@ -28,6 +32,7 @@ const AboutSection =()=> {
                         </div>
                     </Col>
                 </Row>
+                    <h2 id="skillsHeading">Skills</h2>
                 <Row id="sectionContent2">
                     {/* <div id="skillsContainer"> */}
                         
@@ -62,7 +67,9 @@ const AboutSection =()=> {
                     
                     <Col id="contactBox">
                         <p>Short write up to encourage people to get in touch</p>
-                        <Button id="contactButton">Contact</Button>
+                        <Button onClick={contactClickHandler} id="contactButton">
+                            Contact
+                        </Button>
                     </Col>
                 
                 </Row>

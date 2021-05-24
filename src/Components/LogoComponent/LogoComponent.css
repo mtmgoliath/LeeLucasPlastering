@@ -1,6 +1,55 @@
 #logoWords {
     display: flex;
-    width: 662px;
-    height: 120px;
+    max-width: 662px;
+    /* height: 120px; */
     border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    #logoWords {
+        width: 577px;
+        /* height: 90px; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #logoWords {
+        width: 520px;
+        /* height: 60px; */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #logoWords {
+        width: 475px;
+        /* height: px; */
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #logoWords {
+        width: 360px;
+        /* height: px; */
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #logoWords {
+        width: 320px;
+        /* height: px; */
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #logoWords {
+        width: 280px;
+        /* height: px; */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #logoWords {
+        width: 260px;
+        /* height: px; */
+    }
 }

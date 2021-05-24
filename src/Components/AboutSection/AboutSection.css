@@ -5,10 +5,22 @@
     color: black;
     border: 5px solid #ff7a00;
     border-radius: 5px; 
-    padding: 50px;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+}
+
+#aboutHeading {
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    /* padding: 25px; */
+    margin-bottom: 2rem;
+}
+
+#aboutHeading h2 {
+    font-size: 4rem;
 }
 
 #sectionContent {
@@ -22,16 +34,29 @@
     border: 5px solid #000000;
     border-radius: 5px; 
     background: #ff7a00;
-    padding: 25px;
+    /* padding: 25px; */
+}
+
+#profilePic {
+    margin-bottom: 2rem;
 }
 
 #contactBox {
     background: #ff7a00 ;
+    margin: 2rem;
 }
 
 #skillsContainer {
     flex-direction: row;
     margin-top: 2rem;
+}
+
+#textboxContainer {
+    margin: 0 2rem;
+}
+
+#textboxContainer h2 {
+    padding-top: 2rem;
 }
 
 #skills {
@@ -44,7 +69,7 @@
     border-radius: 5px; 
     background-color: #ff7a00;
     font-size: larger;
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
 #sectionContent2 {
@@ -53,8 +78,13 @@
     border: 5px solid #000000;
     border-radius: 5px; 
     background: #ff7a00;
-    padding: 25px;
-    margin-top: 2rem;
-    
+    margin: 1rem 1rem 2rem 1rem;
+}
 
+#skillsHeading {
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background: #ff7a00;
+    font-size: 3rem;
+    margin-top: 2rem;
 }

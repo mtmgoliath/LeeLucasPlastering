@@ -1,5 +1,6 @@
-/* .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
+header {
+    border: 5px solid #ff7a00;
+    border-radius: 5px; 
+    position: sticky;
+    z-index: 999;
+}
