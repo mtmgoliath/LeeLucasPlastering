@@ -33,40 +33,27 @@ const AboutSection =()=> {
                     </Col>
                 </Row>
                     <h2 id="skillsHeading">Skills</h2>
-                <Row id="sectionContent2">
-                    {/* <div id="skillsContainer"> */}
-                        
-                            <Col>
-                                <ul>
-                                    <li>Skimming</li>
-                                    <li>Artex</li>
-                                    <li>Ceilings</li>
-                                    <li>Rendering</li>
-                                    <li>Marbling</li>
-                                    <li>Skimming</li>
-                                    <li>Artex</li>
-                                    <li>Ceilings</li>
-                                    <li>Rendering</li>                                    
-                                </ul>
-                            </Col>
-                            <Col>
-                                <ul>
-                                    <li>Artex</li>
-                                    <li>Ceilings</li>
-                                    <li>Rendering</li>
-                                    <li>Marbling</li>
-                                    <li>Skimming</li>
-                                    <li>Artex</li>
-                                    <li>Ceilings</li>
-                                    <li>Rendering</li>
-                                    <li>Marbling</li>
-                                </ul>
-                            </Col>
-                    {/* </div> */}
-                    
-                    
+                <Row id="sectionContent2">                                           
+                            <Col>                           
+                                <p>Skimming</p>
+                                <p>Ceilings</p>
+                                <p>Walls</p>                                    
+                                <p>Domestic work</p>
+                                <p>Artexing</p>
+                                <p>Insurance work</p>
+                            </Col>                           
+                    </Row>
+                    <Row>
                     <Col id="contactBox">
-                        <p>Short write up to encourage people to get in touch</p>
+                        <p>
+                            No job too small! 
+                        </p>
+                        <p>
+                           Get in touch for a quote!
+                        </p>
+                        <p>
+                            Available for video conference on request.
+                        </p>
                         <Button onClick={contactClickHandler} id="contactButton">
                             Contact
                         </Button>
