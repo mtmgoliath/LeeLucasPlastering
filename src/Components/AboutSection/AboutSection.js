@@ -24,11 +24,17 @@ const AboutSection =()=> {
                     <Col id="textboxContainer">
                         <div>
                             <h2>Background</h2>
-                            <p>Awesome write up about how passionate and dedicated the Lucas family are to plastering and mastery of the trade</p>
+                            <p>I am a third generation plasterer, with experience and technique that has been passed down the family line. 
+                                Though I have done some commercial site work, I specialize in dealing directly with domestic customers. 
+                                I know just how daunting it can be to get in a tradesman to do work in your home, especially with messy trades like plastering. 
+                                Thats why a clean and tidy job is always included in my price, because I want my customer's to be able to progress with the
+                                 beautifcation of their castle without worrying about having their home ruined.</p>
                         </div>
                         <div>
                             <h2>Experience</h2>
-                            <p>So many years experience and also totaly a badass and general excellent guy!</p>
+                            <p>20 years experience with the private sector, supplying clean, tidy and professional workmanship.
+                                Contact details below, so please call for a quote and we can discuss your plastering needs.
+                            </p>
                         </div>
                     </Col>
                 </Row>
@@ -45,18 +51,20 @@ const AboutSection =()=> {
                     </Row>
                     <Row>
                     <Col id="contactBox">
-                        <p>
-                            No job too small! 
-                        </p>
-                        <p>
-                           Get in touch for a quote!
-                        </p>
-                        <p>
-                            Available for video conference on request.
-                        </p>
-                        <Button onClick={contactClickHandler} id="contactButton">
-                            Contact
+                        <div>
+                            <p>
+                                No job too small! 
+                            </p>
+                            <p>
+                                Get in touch for a quote!
+                            </p>
+                            <p>
+                                Available for video conference on request.
+                            </p>
+                            <Button onClick={contactClickHandler} id="contactButton">
+                                Contact
                         </Button>
+                        </div>
                     </Col>
                 
                 </Row>

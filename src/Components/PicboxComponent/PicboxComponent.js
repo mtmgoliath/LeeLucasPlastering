@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
-import testImage from '../../placeHolderPlastering.png'
+import profilePic from '../../Assets/profilePicCropped.jpg'
 import "./PicboxComponent.css"
 
 const PicboxComponent =()=> {
     return(
        
         <Container>
-                <Image id="picBox" src={testImage} rounded />  
+                <Image id="picBox" src={profilePic} rounded />  
         </Container>
 
     )

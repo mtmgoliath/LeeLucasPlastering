@@ -6,7 +6,11 @@
     border: 5px solid #ff7a00;
     border-radius: 5px; 
     margin-bottom: 2rem;
-        text-align: center;
+    text-align: center;
+}
+
+#contactFormContainer {
+    padding-bottom: 2rem;
 }
 
 #contactHeading {

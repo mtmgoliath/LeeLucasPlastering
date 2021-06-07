@@ -1,0 +1,22 @@
+#contactSubmitButton {
+    color: black;
+    border: 3px solid #000000;
+    border-radius: 5px; 
+    background-color: #ff7a00;
+    font-size: larger;
+    margin: 2rem;
+}
+
+.contactLabels {
+    width: 50%;
+}
+
+.contact-form {
+    color: black;
+    border: 5px solid #000000;
+    border-radius: 5px; 
+    background-color: #ff7a00;
+    font-size: larger;
+    margin: 2rem;
+}
+

@@ -1,12 +1,12 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+
+import './FooterComponent.css'
 
 const FooterComponent =()=> {
     return (
         <Container>
-            <p>Copyright Mike T. Martin 2021</p>
+            <p id="copyright">&copy; Copyright Mike T. Martin 2021</p>
         </Container>
     )
 }

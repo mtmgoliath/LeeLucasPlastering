@@ -8,54 +8,43 @@ import Col from 'react-bootstrap/Col'
 import FormControl from 'react-bootstrap/FormControl'
 import useState from 'react'
 import InputGroup from 'react-bootstrap/InputGroup'
+import emailjs from 'emailjs-com'
+import { FormGroup } from 'react-bootstrap'
+import '../ContactFormComponent/ContactFormComponent.css'
 
 const ContactFormComponent =()=> {
-    // const [validated, setValidated] = useState(false);
-  
-    // const handleSubmit = (event) => {
-    //   const form = event.currentTarget;
-    //   if (form.checkValidity() === false) {
-    //     event.preventDefault();
-    //     event.stopPropagation();
-    //   }
-  
-    //   setValidated(true);
-    // };
-  
-    return (
-    //   <Form noValidate validated={validated} onSubmit={handleSubmit}>
-        <Form>
-            <Form.Group controlId="validationCustom01">
-                <Form.Label>First name</Form.Label>
-                <Form.Control
-                    required
-                    type="text"
-                    placeholder="First name"
-                    defaultValue="Mark"
-                />
-                <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-            </Form.Group>
-            <Form.Group controlId="validationCustom02">
-                <Form.Label>Last name</Form.Label>
-                <Form.Control
-                    required
-                    type="text"
-                    placeholder="Last name"
-                    defaultValue="Otto"
-                />
-                <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlInput1">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Label>Example textarea</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-            </Form.Group>
-            <Button type="submit">Submit form</Button>
-        </Form>
-    );
+    
+    let sendEmail =(e)=> {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_zks0oa2', 'contact_form', e.target, 'user_ZfXjswtmZQjIVs9fvRkpH')
+          .then((result) => {
+              alert('Email Sent');
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
+    
+      return (
+        <Container>
+            <Row>
+                <Col xs="1" md="2" lg="3"></Col>
+                <Col>
+                    <Form className="contact-form" onSubmit={sendEmail}>
+                        <Form.Label className="contactLabels">Name</Form.Label>
+                        <Form.Control required placeholder="Please enter your full name..." type="text" name="user_name" />
+                        <Form.Label className="contactLabels">Email</Form.Label>
+                        <Form.Control required placeholder="Please enter your email address..." type="email" name="user_email" />
+                        <Form.Label className="contactLabels">Message</Form.Label>
+                        <Form.Control required placeholder="Please provide details of work to be done and a contact telephone number..." as="textarea" name="message" rows={4} cols={2}/>                    
+                        <Button id="contactSubmitButton" type="submit">Send</Button>
+                    </Form>
+                </Col>
+                <Col xs="1" md="2" lg="3"></Col>
+            </Row>
+        </Container>
+      );
 }
 
 export default ContactFormComponent

@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import PicboxComponent from '../PicboxComponent/PicboxComponent'
 import './GallerySection.css'
 import beforeOne from '../../Assets/artex2before.jpeg'
 import afterOne from '../../Assets/artex2after.jpeg' 
@@ -11,7 +10,6 @@ import afterTwo from '../../Assets/artex3after.jpeg'
 import beforeTwo from '../../Assets/artex3before.jpeg'
 import afterThree from '../../Assets/artexCoverupAfter.jpeg'
 import beforeThree from '../../Assets/artexCoverupBefore.jpeg'
-import wallSkimmed from '../../Assets/wallSkimmed.jpeg'
 
 const GallerySection =()=> {
     return (
