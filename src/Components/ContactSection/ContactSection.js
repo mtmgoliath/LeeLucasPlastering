@@ -13,7 +13,7 @@ const ContactSection =()=> {
             <Row>
                 <Container id="callToAction">
                     <h2>Call for a quote today!</h2>
-                    <h2> +44(0)7567 033 033</h2>
+                    <h2> +44(0)7949 864 157</h2>
                     <p>or fill in the form below to send an email </p>
                 </Container>
             </Row>
