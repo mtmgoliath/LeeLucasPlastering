@@ -24,7 +24,7 @@ const ContactFormComponent =()=> {
       return (
         <Container>
             <Row>
-                <Col xs="1" md="2" lg="3"></Col>
+                <Col xs="0" md="2" lg="3"></Col>
                 <Col>
                     <Form className="contact-form" onSubmit={sendEmail}>
                         <Form.Label className="contactLabels">Name</Form.Label>
@@ -36,7 +36,7 @@ const ContactFormComponent =()=> {
                         <Button id="contactSubmitButton" type="submit">Send</Button>
                     </Form>
                 </Col>
-                <Col xs="1" md="2" lg="3"></Col>
+                <Col xs="0" md="2" lg="3"></Col>
             </Row>
         </Container>
       );
