@@ -2,7 +2,6 @@ import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
-import PicboxComponent from '../PicboxComponent/PicboxComponent'
 import "./ShowcaseSection.css"
 import { Col, Row } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'
