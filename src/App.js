@@ -5,7 +5,6 @@ import ContactSection from './Components/ContactSection/ContactSection';
 import FooterComponent from './Components/FooterComponent/FooterComponent';
 import GallerySection from './Components/GallerySection/GallerySection';
 import HeaderComponent from './Components/HeaderComponent/HeaderComponent'
-import ReviewSection from './Components/ReviewsSection/ReviewsSection';
 import ShowcaseSection from './Components/ShowcaseSection/ShowcaseSection'
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <ShowcaseSection />
         <AboutSection />
         <GallerySection />
-        {/* <ReviewSection /> */}
         <ContactSection />
         <FooterComponent />
     </div>

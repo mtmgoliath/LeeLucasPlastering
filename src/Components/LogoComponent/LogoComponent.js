@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, NavbarBrand } from 'react-bootstrap'
+import { NavbarBrand } from 'react-bootstrap'
 import Logo from '../../../src/LLPLogo.png'
 import "./LogoComponent.css"
 
