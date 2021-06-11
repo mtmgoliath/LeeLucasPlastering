@@ -45,6 +45,10 @@ section {
     font-size: 5rem;
 }
 
+#headline h2 {
+    margin-bottom: 16px;
+}
+
 #showcaseButton {
     color: black;
     border: 3px solid #000000;

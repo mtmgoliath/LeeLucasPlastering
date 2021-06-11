@@ -8,7 +8,7 @@ const PicboxComponent =()=> {
     return(
        
         <Container>
-                <Image id="picBox" src={profilePic} rounded />  
+                <Image id="picBox" src={profilePic} alt="Profile picture of Lee smiling" rounded />  
         </Container>
 
     )
