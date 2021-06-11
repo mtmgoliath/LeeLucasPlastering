@@ -19,23 +19,23 @@ const ShowcaseSection =()=> {
                 <Row id="showcasePics">
                     <Col md={6} id="firstImage">
                         <Container fluid >
-                             <Image className="galleryImages" src={wallSkimmedBefore} rounded />
+                             <Image className="galleryImages" src={wallSkimmedBefore} alt="Before picture of wall to be plastered" rounded />
                         </Container>
                     </Col>
                     <Col md={6} id="secondImage">
                         <Container fluid >
-                             <Image className="galleryImages" src={wallSkimmed} rounded />
+                             <Image className="galleryImages" src={wallSkimmed} alt="After picture of wall thaty has been plastered" rounded />
                         </Container>
                     </Col>
                 </Row>
                 <div id="headline">
                     <h1>Third Generation Plasterer</h1>
-                    <p>
+                    <h2>
                         Master level craftsman with over 20 years experience.                        
-                    </p>
-                    <p>
+                    </h2>
+                    <h2>
                         Specialist in clean and tidy domestic work.
-                    </p>
+                    </h2>
                     <Button onClick={scrollToSkills} id="showcaseButton">Learn more</Button>
                 </div>
           </Jumbotron>
