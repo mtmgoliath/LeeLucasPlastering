@@ -14,7 +14,7 @@ const ShowcaseSection =()=> {
         aboutAnchor.scrollIntoView({ behavior: 'smooth', block: 'center'})
     }
     return (
-        <Container fluid>
+        <Container style="margin-top: 25px" fluid>
             <Jumbotron id="showcaseJumbo">
                 <Row id="showcasePics">
                     <Col md={6} id="firstImage">
