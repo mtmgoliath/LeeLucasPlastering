@@ -2,6 +2,10 @@ section {
     text-align: center;
 }
 
+.Jumbotron {
+    margin-top: 250px;
+}
+
 #showcasePics {
     display: flex;
     flex-direction: row;
