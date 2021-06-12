@@ -15,7 +15,7 @@ const ShowcaseSection =()=> {
     }
     return (
         <Container fluid>
-            <Jumbotron style="margin-top: 250px" id="showcaseJumbo">
+            <Jumbotron id="showcaseJumbo">
                 <Row id="showcasePics">
                     <Col md={6} id="firstImage">
                         <Container fluid >
