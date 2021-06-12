@@ -19,7 +19,7 @@ const NavigationComponent =()=> {
 
 
     return (
-        <Navbar sticky="top" expand="lg" style={{ backgroundImage: `url(${headerBG})`, height: "auto", display: "flex", justifyContent: "space-between"}}>
+        <Navbar fixed="top" expand="lg" style={{ backgroundImage: `url(${headerBG})`, height: "auto", display: "flex", justifyContent: "space-between"}}>
             <LogoComponent />
             <QuoteButtonComponent href="#callToAction" />
             <Nav id='customNavs' defaultActiveKey="/home">
