@@ -2,8 +2,8 @@ section {
     text-align: center;
 }
 
-.Jumbotron {
-    margin-top: 250px;
+#jumbotronContainer {
+    margin-top: 125px;
 }
 
 #showcasePics {

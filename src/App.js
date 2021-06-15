@@ -9,7 +9,7 @@ import ShowcaseSection from './Components/ShowcaseSection/ShowcaseSection'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="appStart">
         <HeaderComponent />
         <ShowcaseSection />
         <AboutSection />

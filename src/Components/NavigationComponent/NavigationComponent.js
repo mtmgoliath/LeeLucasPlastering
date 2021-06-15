@@ -7,6 +7,11 @@ import LogoComponent from '../LogoComponent/LogoComponent'
 import "./NavigationComponent.css"
 
 const NavigationComponent =()=> {
+    let scrollToHome =()=> {
+        const homeAnchor = document.querySelector('#appStart')
+        homeAnchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+    
     let scrollToAbout =()=> {
         const aboutAnchor = document.querySelector('#aboutHeading')
         aboutAnchor.scrollIntoView({ behavior: 'smooth', block: 'start'})
@@ -24,15 +29,13 @@ const NavigationComponent =()=> {
             <QuoteButtonComponent href="#callToAction" />
             <Nav id='customNavs' defaultActiveKey="/home">
                 <Nav.Item className="navItems">
-                <Nav.Link href="/home">Home</Nav.Link>
+                <Nav.Link onClick={scrollToHome} eventKey="link-1">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="navItems">
-                <Nav.Link onClick={scrollToAbout} eventKey="link-1">About</Nav.Link>
+                <Nav.Link onClick={scrollToAbout} eventKey="link-2">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="navItems">
-                <Nav.Link onClick={scrollToGallery} eventKey="link-2">
-                    Gallery
-                </Nav.Link>
+                <Nav.Link onClick={scrollToGallery} eventKey="link-3">Gallery</Nav.Link>
                 </Nav.Item>
             </Nav>
         </ Navbar >
